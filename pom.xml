@@ -11,7 +11,8 @@
 
 	<properties>
 		<springframework.version>5.2.7.RELEASE</springframework.version>
-		<jackson.version>2.2.3</jackson.version>
+		<jackson.version>2.11.0</jackson.version>
+		<httpcomponents.version>4.5.2</httpcomponents.version>
 	</properties>
 
 	<dependencies>
@@ -51,12 +52,12 @@
 		<dependency>
 		    <groupId>com.fasterxml.jackson.core</groupId>
 		    <artifactId>jackson-databind</artifactId>
-		    <version>2.11.0</version>
+		    <version>${jackson.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
-			<version>4.5.2</version>
+			<version>${httpcomponents.version}</version>
 		</dependency>
 	</dependencies>
 
